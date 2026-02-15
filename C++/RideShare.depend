@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1771169249 source:c:\users\milan\onedrive\documents\college\rideshare\ride.cpp
+	"ride.h"
+
+1771169136 c:\users\milan\onedrive\documents\college\rideshare\ride.h
+	<string>
+	<iostream>
+	<iomanip>
+
+1771169757 source:c:\users\milan\onedrive\documents\college\rideshare\main.cpp
+	<iostream>
+	<vector>
+	<memory>
+	<iomanip>
+	"Ride.h"
+	"StandardRide.h"
+	"PremiumRide.h"
+	"Driver.h"
+	"Rider.h"
+
+1771169823 source:c:\users\milan\onedrive\documents\college\rideshare\driver.cpp
+	"driver.h"
+
+1771169164 c:\users\milan\onedrive\documents\college\rideshare\driver.h
+	<vector>
+	<memory>
+	"Ride.h"
+
+1771169793 source:c:\users\milan\onedrive\documents\college\rideshare\rider.cpp
+	"rider.h"
+
+1771170440 c:\users\milan\onedrive\documents\college\rideshare\rider.h
+	<vector>
+	<memory>
+	"ride.h"
+
+1771169067 source:c:\users\milan\onedrive\documents\college\rideshare\premiumride.cpp
+	"premiumRide.h"
+
+1771169143 c:\users\milan\onedrive\documents\college\rideshare\premiumride.h
+	"ride.h"
+
+1771169191 source:c:\users\milan\onedrive\documents\college\rideshare\standardride.cpp
+	"standardRide.h"
+
+1771169093 c:\users\milan\onedrive\documents\college\rideshare\standardride.h
+	"ride.h"
+
