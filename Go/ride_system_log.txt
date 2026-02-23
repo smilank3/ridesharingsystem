@@ -1,0 +1,51 @@
+[22:15:22.195] [LOGGER      ] Log file initialized: ride_system_log.txt
+[22:15:22.197] [MAIN        ]  Demo 
+[22:15:22.197] [MAIN        ] Starting 3 worker goroutines...
+[22:15:22.197] [MAIN        ] Adding ride tasks to queue...
+[22:15:22.198] [QUEUE       ] Added: Ride #(1 , Standard )
+[22:15:22.198] [Worker-3    ] Worker started.
+[22:15:22.198] [Worker-3    ] Processing: Ride #(1 , Standard )
+[22:15:22.199] [Worker-1    ] Worker started.
+[22:15:22.199] [Worker-2    ] Worker started.
+[22:15:22.248] [QUEUE       ] Added: Ride #(2 , Premium )
+[22:15:22.249] [Worker-1    ] Processing: Ride #(2 , Premium )
+[22:15:22.300] [QUEUE       ] Added: Ride #(3 , Standard )
+[22:15:22.300] [Worker-2    ] Processing: Ride #(3 , Standard )
+[22:15:22.350] [QUEUE       ] Added: Ride #(4 , Premium )
+[22:15:22.401] [QUEUE       ] Added: Ride #(5 , Standard )
+[22:15:22.451] [QUEUE       ] Added: Ride #(6 , Standard )
+[22:15:22.503] [QUEUE       ] Added: Ride #(7 , Premium )
+[22:15:22.553] [QUEUE       ] Added: Ride #(8 , Premium )
+[22:15:22.604] [QUEUE       ] Added: Ride #(9 , Standard )
+[22:15:22.655] [QUEUE       ] Added: Ride #(10 , Premium )
+[22:15:22.706] [QUEUE       ] Added: Ride #(11 , Premium )
+[22:15:22.719] [Worker-3    ] Completed: Ride #(1 , $15.00 ) -> 520ms
+[22:15:22.719] [Worker-3    ] Processing: Ride #(4 , Premium )
+[22:15:22.750] [Worker-1    ] Completed: Ride #(2 , $51.50 ) -> 500ms
+[22:15:22.751] [Worker-1    ] Processing: Ride #(5 , Standard )
+[22:15:22.757] [QUEUE       ] Added: Ride #(12 , Standard )
+[22:15:22.807] [MAIN        ] All 12 tasks added to queue.
+[22:15:22.962] [Worker-2    ] Completed: Ride #(3 , $6.30 ) -> 661ms
+[22:15:22.962] [Worker-2    ] Processing: Ride #(6 , Standard )
+[22:15:23.103] [Worker-3    ] Completed: Ride #(4 , $65.00 ) -> 382ms
+[22:15:23.103] [Worker-3    ] Processing: Ride #(7 , Premium )
+[22:15:23.370] [Worker-2    ] Completed: Ride #(6 , $4.50 ) -> 406ms
+[22:15:23.370] [Worker-2    ] Processing: Ride #(8 , Premium )
+[22:15:23.528] [Worker-1    ] Completed: Ride #(5 , $10.20 ) -> 777ms
+[22:15:23.529] [Worker-1    ] Processing: Ride #(9 , Standard )
+[22:15:23.696] [Worker-3    ] Completed: Ride #(7 , $21.50 ) -> 593ms
+[22:15:23.696] [Worker-3    ] Processing: Ride #(10 , Premium )
+[22:15:24.145] [Worker-1    ] Completed: Ride #(9 , $3.15 ) -> 615ms
+[22:15:24.146] [Worker-1    ] Processing: Ride #(11 , Premium )
+[22:15:24.165] [Worker-2    ] Completed: Ride #(8 , $30.50 ) -> 795ms
+[22:15:24.165] [Worker-2    ] Processing: Ride #(12 , Standard )
+[22:15:24.396] [Worker-3    ] Completed: Ride #(10 , $26.90 ) -> 700ms
+[22:15:24.396] [Worker-3    ] No more tasks. Shutting down. Processed: 4
+[22:15:24.397] [Worker-3    ] Worker terminated.
+[22:15:24.669] [Worker-1    ] Completed: Ride #(11 , $17.00 ) -> 522ms
+[22:15:24.670] [Worker-1    ] No more tasks. Shutting down. Processed: 4
+[22:15:24.671] [Worker-1    ] Worker terminated.
+[22:15:24.824] [Worker-2    ] ERROR: Fare calculation failed for Ride #12: Invalid fare calculated: 0.00
+[22:15:24.826] [Worker-2    ] No more tasks. Shutting down. Processed: 3
+[22:15:24.826] [Worker-2    ] Worker terminated.
+[22:15:24.833] [MAIN        ] Results written to ride_results.txt

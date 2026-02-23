@@ -1,0 +1,17 @@
+RIDE SHARING SYSTEM - Concurrent Processing Results
+===================================================
+
+Worker-3 >> Ride #(1 , Standard , $15.00 , Completed ) -> 520ms
+Worker-1 >> Ride #(2 , Premium , $51.50 , Completed ) -> 500ms
+Worker-2 >> Ride #(3 , Standard , $6.30 , Completed ) -> 661ms
+Worker-3 >> Ride #(4 , Premium , $65.00 , Completed ) -> 382ms
+Worker-2 >> Ride #(6 , Standard , $4.50 , Completed ) -> 406ms
+Worker-1 >> Ride #(5 , Standard , $10.20 , Completed ) -> 777ms
+Worker-3 >> Ride #(7 , Premium , $21.50 , Completed ) -> 593ms
+Worker-1 >> Ride #(9 , Standard , $3.15 , Completed ) -> 615ms
+Worker-2 >> Ride #(8 , Premium , $30.50 , Completed ) -> 795ms
+Worker-3 >> Ride #(10 , Premium , $26.90 , Completed ) -> 700ms
+Worker-1 >> Ride #(11 , Premium , $17.00 , Completed ) -> 522ms
+Worker-2 >> Ride #(12 , Standard , 0.00 , Cancelled ) ->> 658ms -> Error: Invalid fare calculated: 0.00
+
+Total Rides Processed: 12
